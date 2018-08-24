@@ -6,3 +6,5 @@ class App < Sinatra::Base
 
 
 end
+
+all? { |e|  }
