@@ -9,8 +9,6 @@ class App < Sinatra::Base
    end
 
    post '/teams' do
-      @team = Superhero.new(params[:team])
-
       params[:heroes].each { |hero|  Superhero.new(hero)}
       @hero = Superhero.all
 
