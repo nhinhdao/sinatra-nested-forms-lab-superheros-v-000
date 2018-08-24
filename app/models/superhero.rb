@@ -11,7 +11,7 @@ class Superhero
       HEROES << self
    end
 
-   def self.all 
+   def self.all
       HEROES
    end
    
